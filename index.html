@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Viajes</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>¿A donde vamos?</h1>
+
+    <h2>Destino:</h2>
+    <select id="destino">
+        <option value="">---SELECCIONE UNA OPCIÓN---</option>
+        <option value="barcelona">Barcelona (España)</option>
+        <option value="cuzco">Cuzco (Peru)</option>
+        <option value="rio">Rio de Janeiro (Brasil)</option>
+        <option value="miami">Miami (EE.UU.)</option>
+        <option value="tokyo">Tokyo (Japon)</option>
+        <option value="moscu">Mozcu (Rusia)</option>
+        <option value="seoul">Seoul (Corea del Sur)</option>
+        <option value="oslo">Oslo (Noruega)</option>
+    </select>
+
+    <h2>¿Cuántos dias?</h2>
+    <label for="dias">Dias</label>
+    <input type="number" id="dias" min="1" placeholder="Ingrese número">
+
+    <br><br>
+
+    <button onclick="calcularViaje()">Calcular</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
