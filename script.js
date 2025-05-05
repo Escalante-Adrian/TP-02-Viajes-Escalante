@@ -12,9 +12,9 @@ function calcularViaje() {
         cuzco:     { moneda: "soles", cambio: 320 },
         rio:       { moneda: "reales", cambio: 205 },
         miami:     { moneda: "dolares", cambio: 1200 },
-        tokyo:     { moneda: "yenes", cambio: 8 },
+        tokyo:     { moneda: "yenes (Ojala estuviera tan barato profe)", cambio: 8 },
         moscu:     { moneda: "rublos", cambio: 15 },
-        seoul:     { moneda: "wones", cambio: 0.9 },
+        seoul:     { moneda: "wones (Ojala estuviera tan barato profe)", cambio: 0.9 },
         oslo:    { moneda: "coronas", cambio: 120 }
     };
 
